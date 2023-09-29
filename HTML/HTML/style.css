@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center; /* adiciona essa propriedade para centralizar o texto */
+  }
+  
+  #teste {
+    background-color: orange; /* coloca uma cor de fundo laranja, que combina com azul */
+    border: 2px solid blue; /* coloca uma borda azul */
+    color: white; /* coloca uma cor de texto branca */
+    font-size: 20px; /* coloca um tamanho de fonte 20px */
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 10px; /* coloca um espaçamento interno de 10px */
+    text-align: center; /* centraliza o texto */
+    width: 100px; /* define a largura da caixa em 100px */
+  }
+  
+  
+  input, button {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  div {
+    border: 2px solid gray;
+    margin: 10px auto; /* adiciona essa propriedade para centralizar as caixas horizontalmente */
+    padding: 10px;
+    width: 50%; /* adiciona essa propriedade para definir a largura das caixas */
+  }
+  
+  p {
+    color: black;
+  }
+  
+  /* adiciona esse código para criar colunas com divisórias */
+  
+  .column {
+    float: left; /* faz as colunas ficarem lado a lado */
+    width: 50%; /* define a largura de cada coluna */
+  }
+  
+  .column + .column {
+    border-left: 2px solid gray; /* adiciona uma borda entre as colunas */
+  }
+  
+ 
+  
+  /* adiciona esse código para dar mais cores e destaques aos resultados */
+  
+  #soma {
+    background-color: lightgreen; /* adiciona uma cor de fundo verde claro */
+  }
+  
+  #soma p {
+    font-weight: bold; /* adiciona um peso de fonte negrito */
+  }
+  
+  #cubo {
+    background-color: lightpink; /* adiciona uma cor de fundo rosa claro */
+  }
+  
+  #cubo p {
+    font-style: italic; /* adiciona um estilo de fonte itálico */
+  }
+  
+  #graus {
+    background-color: lightyellow; /* adiciona uma cor de fundo amarelo claro */
+  }
+  
+  #graus p {
+    text-decoration: underline; /* adiciona um decoração de texto sublinhado */
+  }
+  
+  #area {
+    background-color: lightblue; /* adiciona uma cor de fundo azul claro */
+  }
+  
+  #area p {
+    text-transform: uppercase; /* adiciona uma transformação de texto maiúsculo */
+  }
+  
+  #circulo {
+    background-color: lavender; /* adiciona uma cor de fundo lavanda */
+  }
+  
+  #circulo p {
+    font-size: larger; /* adiciona um tamanho de fonte maior */
+  }
+  
+  #palavras {
+    background-color: peachpuff; /* adiciona uma cor de fundo pêssego */
+  }
+  
+  #palavras p {
+    color: red; /* adiciona uma cor de texto vermelho */
+  }
+  
