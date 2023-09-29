@@ -24,12 +24,13 @@ function Area(){
 }
 //Escreva uma função que encontre a área e o perímetro de um círculo, de acordo com o raio fornecido.
 function circulo() {
-    num7 = parseFloat(document.getElementById('nume7').value);
-    total5 = 3.14* (num7 * num7);
-    total6 = 2*3.14*num7;
+    num7 = parseFloat(document.getElementById('num7').value);
+    total5 = 3.14 * (num7 * num7);
+    total6 = 2 * 3.14 * num7;
     document.getElementById('circulo1').innerHTML = total5;
     document.getElementById('circulo2').innerHTML = total6;
 }
+
 function palavras(){
     palavras = document.getElementById("palavra").value;
     totalLetras= palavras.length;

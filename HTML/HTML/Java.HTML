@@ -3,9 +3,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div id="teste"> <!-- cria uma caixa com o id teste -->
-        teste
-    </div>
+    <div class="container">
+        <!-- Your columns go here -->
+        <div class="column" id="teste">
+            teste
+        </div>
 
       <div class="column" id="soma"> <!-- adiciona essa classe para criar uma coluna -->
         Soma:
@@ -14,7 +16,9 @@
         <button type="button" onclick="calcular();">Clique aqui</button>
         <p id="demo"></p>
       </div>
+     
       <div class="column" id="cubo"> 
+        cubo:
         <input type="number" id="num3" name="num3">
         <button type="button" onclick="cubo();">Raiz quadrada</button>
         <p id="demo"></p>
@@ -34,7 +38,7 @@
         <p id="area"></p>
       </div>
 
-      <div class="column" id="circulo">
+      <div class="column" id="circulo">NaN
         Raio do circulo
         <input type="text" id="num7" name="num7">
         <button onclick="circulo();">calcular</button>

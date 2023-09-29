@@ -1,9 +1,17 @@
 body {
-    background-color: white;
+    background: linear-gradient(90deg, rgb(16, 10, 131) 0%, rgb(58, 58, 207) 35%, rgba(0,212,255,1) 100%);
     font-family: Arial, sans-serif;
     text-align: center; /* adiciona essa propriedade para centralizar o texto */
   }
-  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.column {
+    margin-bottom: 20px;
+}
   #teste {
     background-color: orange; /* coloca uma cor de fundo laranja, que combina com azul */
     border: 2px solid blue; /* coloca uma borda azul */
@@ -17,6 +25,7 @@ body {
   
   
   input, button {
+    border-radius: 10px 10px 10px 10px;
     display: inline-block;
     margin: 5px;
   }
@@ -35,11 +44,13 @@ body {
   /* adiciona esse código para criar colunas com divisórias */
   
   .column {
+    border-radius: 10px 10px 10px 10px;
     float: left; /* faz as colunas ficarem lado a lado */
     width: 50%; /* define a largura de cada coluna */
   }
   
   .column + .column {
+    border-radius: 10px 10px 10px 10px;
     border-left: 2px solid gray; /* adiciona uma borda entre as colunas */
   }
   
