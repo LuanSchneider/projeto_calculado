@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<Html>
+<body>
+    <h1>Testes</h1>
+    Soma:
+    <input type='text' id="num1" name="num1">
+    <input type='text' id="num2" name="num2">
+    <button type="button" onclick="calcular();">Clique aqui</button>
+<p id="demo"></p>
+<br>
+<br>
+Ao cubo:
+<input type="text" id="num3" name="num3">
+<button type="button" onclick="cubo()">Raiz quadrada</button>
+<p id="cubo"></p>
+graus:
+<input type="text" id="num4" name="num4">
+<button type="button" onclick="graus()">Converção de temperatura</button>
+<p id="graus"></p>
+graus:
+<input type="text" id="num5" name="num5">
+<input type="text" id="num6" name="num6">
+<button type="button" onclick="Area()">Raio do objeto</button>
+<p id="area"></p>
+Raio do circulo
+<input type="text" id="nume7" name="num7">
+<button onclick="circulo();">calcular</button>
+<p id="circulo1"></p>
+<p id="circulo2"></p>
+palavras
+<input type="text" id = 'palavra'>
+<button onclick='palavras();'>Contar</button>
+<p id="palavras1"> </p>
+<script>
+    function calcular(){
+        numero1 = parseInt(document.getElementById('num1').value);
+        numero2 = parseInt(document.getElementById('num2').value);
+        total = numero1 + numero2;
+        
+        document.getElementById('demo').innerHTML = total;
+    }
+
+    function cubo(){
+        num3 = parseInt(document.getElementById('num3').value);
+        total2 = num3 * num3 * num3;
+        document.getElementById('cubo').innerHTML = total2;
+    }
+    function graus(){
+        num4 = parseFloat(document.getElementById('num4').value);
+        total3 = (num4 - 32)* 5/9;
+        document.getElementById('graus').innerHTML = total3;
+    }
+    function Area(){
+        num6 = parseFloat(document.getElementById('num6').value);
+        num5 = parseFloat(document.getElementById('num5').value);
+        total4 = (num5 * num6)/2
+        document.getElementById('area').innerHTML = total4;
+    }
+    //Escreva uma função que encontre a área e o perímetro de um círculo, de acordo com o raio fornecido.
+    function circulo() {
+        num7 = parseFloat(document.getElementById('nume7').value);
+        total5 = 3.14* (num7 * num7);
+        total6 = 2*3.14*num7;
+        document.getElementById('circulo1').innerHTML = total5;
+        document.getElementById('circulo2').innerHTML = total6;
+    }
+    function palavras(){
+        palavras = document.getElementById("palavra").value;
+        totalLetras= palavras.length;
+        document.getElementById("palavras1").innerHTML = totalLetras;
+    }
+</script>
+
+</body>
+</Html>

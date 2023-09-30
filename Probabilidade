@@ -1,0 +1,13 @@
+Probabilidade
+  <input type='text' id="nume1" name="nume1">
+  <input type='text' id="nume2" name="nume2">
+<button type="button" onclick="probabilidade();">calcular</button>
+<p>A probabilidae é de </p>
+<p id="Provavel"> %</p>
+
+function probabilidade(){
+        nume1=parseInt(document.getElementById("nume1").value);
+        nume2=parseInt(document.getElementById("nume2").value);
+        P= (nume1 / nume2);
+        document.getElementById("Provavel").innerHTML = P;
+    }
