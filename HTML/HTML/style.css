@@ -1,41 +1,34 @@
 body {
-    background: linear-gradient(90deg, rgb(16, 10, 131) 0%, rgb(58, 58, 207) 35%, rgba(0,212,255,1) 100%);
+   background-color: grey;
+   
+  
     font-family: Arial, sans-serif;
-    text-align: center; /* adiciona essa propriedade para centralizar o texto */
+  
   }
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.column {
-    margin-bottom: 20px;
-}
+  
   #teste {
-    background-color: orange; /* coloca uma cor de fundo laranja, que combina com azul */
-    border: 2px solid blue; /* coloca uma borda azul */
+    background-color: rgb(255, 165, 0); /* laranja */
+    border-radius: 10px 10px 10px 10px;
     color: white; /* coloca uma cor de texto branca */
     font-size: 20px; /* coloca um tamanho de fonte 20px */
     margin: 10px auto; /* centraliza a caixa horizontalmente */
-    padding: 10px; /* coloca um espaçamento interno de 10px */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
     text-align: center; /* centraliza o texto */
-    width: 100px; /* define a largura da caixa em 100px */
+    width: 175; /* define a largura da caixa em 100px */
   }
   
   
   input, button {
     border-radius: 10px 10px 10px 10px;
+
     display: inline-block;
     margin: 5px;
+   
   }
   
-  div {
-    border: 2px solid gray;
-    margin: 10px auto; /* adiciona essa propriedade para centralizar as caixas horizontalmente */
-    padding: 10px;
-    width: 50%; /* adiciona essa propriedade para definir a largura das caixas */
-  }
+  
+   
+  
   
   p {
     color: black;
@@ -43,66 +36,88 @@ body {
   
   /* adiciona esse código para criar colunas com divisórias */
   
-  .column {
-    border-radius: 10px 10px 10px 10px;
-    float: left; /* faz as colunas ficarem lado a lado */
-    width: 50%; /* define a largura de cada coluna */
-  }
   
-  .column + .column {
-    border-radius: 10px 10px 10px 10px;
-    border-left: 2px solid gray; /* adiciona uma borda entre as colunas */
-  }
   
  
   
   /* adiciona esse código para dar mais cores e destaques aos resultados */
   
   #soma {
-    background-color: lightgreen; /* adiciona uma cor de fundo verde claro */
-  }
+    background-color: rgb(255, 255, 255); /* branco */
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center;
+    width: 175px;
+}
   
   #soma p {
-    font-weight: bold; /* adiciona um peso de fonte negrito */
+    font-weight: bold;
+    
   }
   
   #cubo {
-    background-color: lightpink; /* adiciona uma cor de fundo rosa claro */
-  }
+    background-color: rgb(16, 10, 131); /* azul escuro */
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center;
+    width: 175px;
+}
+
   
   #cubo p {
-    font-style: italic; /* adiciona um estilo de fonte itálico */
+    font-style: italic;
   }
   
   #graus {
-    background-color: lightyellow; /* adiciona uma cor de fundo amarelo claro */
-  }
+    background-color: rgb(58, 58, 207); /* azul claro */
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center;
+    width: 175px;
+}
   
   #graus p {
-    text-decoration: underline; /* adiciona um decoração de texto sublinhado */
+    text-decoration: underline;
   }
   
   #area {
-    background-color: lightblue; /* adiciona uma cor de fundo azul claro */
-  }
+    background-color: rgb(0, 212, 255); /* verde */
+    border-radius: 10px 10px 10px 10px;
+    margin: 9px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center;
+    width: 175px;
+}
   
   #area p {
-    text-transform: uppercase; /* adiciona uma transformação de texto maiúsculo */
+    text-transform: uppercase;
   }
   
   #circulo {
-    background-color: lavender; /* adiciona uma cor de fundo lavanda */
-  }
+    background-color: rgb(255, 165, 0); /* laranja */
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center;
+    width: 175px;
+}
   
   #circulo p {
-    font-size: larger; /* adiciona um tamanho de fonte maior */
+    font-size: larger;
   }
   
   #palavras {
-    background-color: peachpuff; /* adiciona uma cor de fundo pêssego */
-  }
+    background-color: rgb(255, 255, 255); /* branco */
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center;
+    width: 175px;
+}
   
   #palavras p {
-    color: red; /* adiciona uma cor de texto vermelho */
+    color: rgb(255, 165, 0); /* laranja */
   }
-  
