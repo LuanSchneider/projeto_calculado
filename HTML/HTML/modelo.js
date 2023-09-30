@@ -36,3 +36,10 @@ function palavras(){
     totalLetras= palavras.length;
     document.getElementById("palavras1").innerHTML = totalLetras;
 }
+
+function probabilidade(){
+    nume1=parseInt(document.getElementById("nume1").value);
+    nume2=parseInt(document.getElementById("nume2").value);
+    P= (nume1 / nume2);
+    document.getElementById("Provavel").innerHTML = P;
+}
