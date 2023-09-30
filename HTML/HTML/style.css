@@ -126,7 +126,7 @@ body {
     height: 980px;
     position: absolute;
     top: -10;
-    left: 135;
+    left: 350;
     background-color: rgb(183, 212, 236);
     z-index: -1;
     opacity: 0.5;
@@ -138,17 +138,18 @@ body {
 .fxs{
     position: absolute;
 bottom: -16%;
-left: 146;
+left: 455px;
 
 }
 .match{
     position: absolute;
-    right: 146px;
+    right: 455px;
+    top:835
 }
 .grau{
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 455px;
 
 }
 .Provavel{
@@ -161,7 +162,7 @@ left: 146;
 }
 .match1{
     position: absolute;
-    top: 1px;
-    left: 146;
+    top: 50px;
+    left: 455px;
 }
 
