@@ -15,8 +15,17 @@ body {
     padding: 1px; /* coloca um espaçamento interno de 10px */
     text-align: center; /* centraliza o texto */
     width: 175; /* define a largura da caixa em 100px */
+  }#teste2{   
+    background-color: rgb(243, 10, 10); /* laranja */
+    border-radius: 10px 10px 10px 10px;
+    color: white; /* coloca uma cor de texto branca */
+    font-size: 20px; /* coloca um tamanho de fonte 20px */
+    margin: 10px auto; /* centraliza a caixa horizontalmente */
+    padding: 1px; /* coloca um espaçamento interno de 10px */
+    text-align: center; /* centraliza o texto */
+    width: 175; /* define a largura da caixa em 100px */
+
   }
-  
   
   input, button {
     border-radius: 10px 10px 10px 10px;
